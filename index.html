@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>
+    <div class="button-header">
+        <button class="add-book">New book</button>
+    </div>
+    <div class="container">
+        <div class="form-popup">
+            <form id="bookForm">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required><br>
+                
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required><br>
+                
+                <label for="pages">Pages:</label>
+                <input type="number" id="pages" name="pages" required><br>
+                
+                <label for="read">Read:</label>
+                <input type="checkbox" id="read" name="read"><br>
+                
+                <div class="button-container">
+                    <button type="submit">Add Book</button>
+                    <button type="button" onclick="closeForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+
+        
+
+        <div class="all-books-container">
+            <div class="all-books">
+                
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
